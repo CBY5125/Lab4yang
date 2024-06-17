@@ -26,7 +26,7 @@ public class SenderA {
     private final static String QUEUE_NAME = "game_queue";
 
     public static void main(String[] argv) throws Exception {
-        GameObject gameObject = new GameObject("SpaceGame", 5, 1000);
+        GameObject gameObject = new GameObject("Kate", 5, 100);
         String serializedObject = serializeGameObject(gameObject);
         String encryptedObject = CaesarCipher.encrypt(serializedObject, 5);
 

@@ -1,3 +1,12 @@
+/** Project: Caesar Cipher, HMAC/SHA256 Hash
+ * Purpose Details: Use Caesar Cipher and HMAC/SHA256 to encrypted and decrypted message send
+ * Course:IST242
+ * Author:Christina Yang
+ * Date Developed: Jun14
+ * Last Date Changed:Jun17
+ * Rev:4
+
+ */
 package RabbitMQ;
 import java.util.Scanner;
 
